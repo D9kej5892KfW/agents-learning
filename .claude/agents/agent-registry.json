@@ -1,0 +1,51 @@
+{
+  "agents": [
+    {
+      "name": "code-reviewer",
+      "file": "code-reviewer.yaml",
+      "type": "quality-specialist",
+      "auto_activate": true,
+      "triggers": ["code_changes", "quality_review", "pre_commit"],
+      "personas": ["qa", "security", "analyzer"]
+    },
+    {
+      "name": "architecture-analyst", 
+      "file": "architecture-analyst.yaml",
+      "type": "system-specialist",
+      "auto_activate": true,
+      "triggers": ["system_design", "architecture_review", "scaling"],
+      "personas": ["architect", "performance"]
+    },
+    {
+      "name": "test-engineer",
+      "file": "test-engineer.yaml", 
+      "type": "testing-specialist",
+      "auto_activate": true,
+      "triggers": ["test_creation", "test_execution", "coverage_analysis"],
+      "personas": ["qa", "analyzer"]
+    },
+    {
+      "name": "security-auditor",
+      "file": "security-auditor.yaml",
+      "type": "security-specialist", 
+      "auto_activate": true,
+      "triggers": ["security_review", "vulnerability_scan", "compliance"],
+      "personas": ["security", "analyzer"]
+    },
+    {
+      "name": "documentation-writer",
+      "file": "documentation-writer.yaml",
+      "type": "documentation-specialist",
+      "auto_activate": true, 
+      "triggers": ["documentation", "api_docs", "user_guides"],
+      "personas": ["scribe", "mentor"]
+    }
+  ],
+  "activation_rules": {
+    "complexity_threshold": 0.6,
+    "file_count_threshold": 10,
+    "auto_delegation_enabled": true
+  },
+  "created": "2025-07-27",
+  "version": "1.0"
+}
