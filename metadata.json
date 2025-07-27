@@ -1,0 +1,18 @@
+{
+  "session_name": "agents-learning",
+  "created": "$(date -Iseconds)",
+  "repository": "https://github.com/D9kej5892KfW/agents-learning",
+  "workspace": "/home/jeff/.claude/session-repos/agents-learning",
+  "goals": [
+    "Learn about AI agent architectures and patterns",
+    "Explore agent communication and coordination", 
+    "Study practical implementations",
+    "Build understanding of agent-based systems"
+  ],
+  "status": "active",
+  "git_info": {
+    "remote": "git@github.com:D9kej5892KfW/agents-learning.git",
+    "branch": "main",
+    "initial_commit": false
+  }
+}

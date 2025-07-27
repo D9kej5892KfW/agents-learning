@@ -1,0 +1,18 @@
+{
+  "session_id": "agents-learning",
+  "created": "$(date -Iseconds)",
+  "last_updated": "$(date -Iseconds)",
+  "token_estimates": {
+    "chat_history": 0,
+    "session_notes": 200,
+    "project_context": 300,
+    "context_index": 150,
+    "total_estimated": 650
+  },
+  "file_counts": {
+    "context_files": 4,
+    "project_files": 2,
+    "total_files": 6
+  },
+  "session_status": "active"
+}

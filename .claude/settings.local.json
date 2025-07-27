@@ -1,0 +1,15 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(ls:*)",
+      "Bash(if [ -f ~/.claude/sessions/.current-session ])",
+      "Bash([ -s ~/.claude/sessions/.current-session ])",
+      "Bash(then echo \"ACTIVE_SESSION_EXISTS\")",
+      "Bash(cat:*)",
+      "Bash(else echo \"NO_ACTIVE_SESSION\")",
+      "Bash(fi)",
+      "Bash(cp:*)"
+    ],
+    "deny": []
+  }
+}
